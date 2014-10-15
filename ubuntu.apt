@@ -1,0 +1,23 @@
+# Install build tools.
+sudo apt-get install -y build-essential 
+
+# Install OpenJDK java.
+sudo apt-get install -y openjdk-6-jdk
+
+# Install devel python.
+sudo apt-get install -y python-dev python-boto
+
+# Install devel libcurl
+sudo apt-get install -y libcurl4-nss-dev
+
+# Install devel libsasl (***Only required for Mesos 0.14.0 or newer***).
+sudo apt-get install -y libsasl2-dev
+
+# Install Maven (***Only required for Mesos 0.18.1 or newer***).
+sudo apt-get install -y maven
+
+# Install autotoconf and automake.
+sudo apt-get install -y autoconf
+
+# Install libtool.
+sudo apt-get install -y libtool
