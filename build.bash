@@ -1,4 +1,5 @@
-git clone http://git-wip-us.apache.org/repos/asf/mesos.gito
+sudo apt-get install -y vim git tmux
+git clone http://git-wip-us.apache.org/repos/asf/mesos.git
 
 # Change working directory.
 cd mesos
